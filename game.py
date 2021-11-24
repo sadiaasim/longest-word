@@ -5,6 +5,7 @@ import string
 class Game:
     """
     Game Class for generating random letters and getting words for validation.
+    Also keep a check two ways
     """
     def __init__(self):
         """
