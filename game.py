@@ -2,6 +2,8 @@
 # pylint: disable=too-few-public-methods
 import random
 import string
+import requests
+
 class Game:
     """
     Game Class for generating random letters and getting words for validation.
@@ -21,6 +23,7 @@ class Game:
         """
         if word == '':
             return False
+
         counter = 0
         for letter in word:
             if str(self.grid).find(letter) != -1 and \

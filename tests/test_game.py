@@ -25,4 +25,3 @@ class TestGame(unittest.TestCase):
         new_game.grid = list('KWEUEAKRZ')
         self.assertIs(new_game.is_valid('SANDWICH'), False)
         self.assertEqual(new_game.grid, list('KWEUEAKRZ'))
-
